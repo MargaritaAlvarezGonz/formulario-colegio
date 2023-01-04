@@ -1,4 +1,31 @@
 
 body {
     background-color: #FFEA91;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+h1{
+    text-align: center;
+   
+}
+
+.form-cont {
+    background-color: green;
+    
+}
+
+#bt-agregar{
+    font-size: 20px;
+}
+
+th {
+    border: solid salmon 3px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tableFormat table {
+    margin: 10px auto
+
 }
