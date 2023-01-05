@@ -19,7 +19,8 @@ h1{
     font-size: 20px;
 }
 
-th {
+th,
+td {
     border: solid salmon 3px;
     padding: 10px;
     text-align: center;

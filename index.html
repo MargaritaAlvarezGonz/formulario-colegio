@@ -12,38 +12,43 @@
 </head>
 <body>
    <div><h1>Lista de alumnos</hi></div>
-    <div>
-      <form class="form-cont">
-        <div>
+    
+    <form id="listForm">
+        <div class="formField">
           <label for="typeName">Nombre</label>
-          <input id="typeName" name="typeName" type="text" >
+          <input id="typeName" name="typeName">
         </div>
-        <div>
+        <div class="formField">
           <label for="firstSurname">Primer Apellido</label>
-          <input id="firstSurname" name="firstSurname" type="text">
+          <input id="firstSurname" name="firstSurname">
         </div>
-        <div>
+        <div class="formField">
           <label for="secondSurname">Segundo Apellido</label>
-          <input id="secondSurname" name="secondSurname" type="text" >
+          <input id="secondSurname" name="secondSurname">
         </div>
-        <div>
+        <div class="formField">
           <label for="schoolGrade">Curso</label>
-          <input id="schoolGrade" name="schoolGrade" type="text"></div>
-      
-        <button id="bt-agregar">Agregar</button>
-      </form>
-    </div>
+          <input id="schoolGrade" name="schoolGrade"></div>
+        <div class="forField">
+          <button id="bt-agregar">Agregar</button></div>
+    </form>
+    
 
     <div class="tableFormat">
-        <table>
+        <table id="listTable">
             <tr>
-                <th>Nombre</th>            
+                <th>Nombre</th>                         
                 <th>Primer Apellido</th>       
                 <th>Segundo Apellido</th>
                 <th>Curso</th>
+                <th>Eliminar</th>
+            </tr>
+            <tr>
+              
             </tr>
         </table>
     </div>
-    <script src="/Js/index.js"></script>
+
+        <script src="/Js/index.js"></script>
 </body>
 </html>
