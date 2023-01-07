@@ -20,7 +20,11 @@
 } */
 
 body {
-    background-color: #FFEA91;
+    background-color: #fbf3cd;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(/Imágenes/Cambio\ enterlearning.png);
     
 }
 
@@ -100,12 +104,22 @@ td {
     align-content: center;
 }
 
-
+button{
+    font-size: .5rem;
+    padding: 5px;
+    margin-top: auto;
+    text-align: center;
+    background-color: #FFACA0;
+    font-family: 'Indie_Flower';
+    border-radius: .625rem;
+    border: solid #4A5B44 .0625rem;
+}
 
 /*Pie de pagina*/
 .pie-pagina{
     width: 100%;
     background-color: #BEFFD1;
+    margin-top: auto;
 }
 
 .pie-pagina .grupo-1{
@@ -132,8 +146,8 @@ td {
 
 .pie-pagina .grupo-1 .box h2{
     color:#4A5B44;
-    margin-bottom: 18px;
-    font-size: 1.25rem;
+    margin-bottom: 1.125rem;
+    font-size: .75rem;
     font-family: 'Permanent_Marker';
     
 }
@@ -175,9 +189,17 @@ td {
 
 @media screen and (max-width: 600px) {
     .pie-pagina .grupo-1{
-        width: 90%;
+        width: 100%;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 1.25rem;
         padding: 1.25rem 0rem;
+    }
+
+    body {
+        width: auto;
+    }
+
+    .list {
+        width: auto;
     }
 }
