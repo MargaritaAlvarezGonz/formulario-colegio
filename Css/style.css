@@ -8,6 +8,16 @@
     src: url(/Fuentes/PermanentMarker.ttf);
 }
 
+/* .grid-container{
+    background-image: ;
+    display: grid;
+    height: auto; 
+    width: auto;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    text-align: center; 
+    padding: 1.25rem; 
+} */
 
 body {
     background-color: #FFEA91;
@@ -17,29 +27,80 @@ body {
 h1{
     text-align: center;
     font-family: 'Permanent_Marker';
-   
+    font-size: 2.0625rem;
+    padding: .9375rem ;
+    color: #4A5B44;
+       
 }
 
-.form-cont {
-    background-color: green;
-    
+.list{
+    color:#4A5B44;
+    font-family:'Indie_Flower';
+    background-color: #BEFFD1;
+    height: 12.5rem;
+    width: 25rem;
+    margin:1% auto;
+    border-radius: 1.5625rem;
+    border: solid .125rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+}
+input{
+    border-radius: .4375rem;
+    border: solid #4A5B44 .125rem;
+    margin: .125rem;
+    display: flexbox;
+    justify-content: end;
+
 }
 
 #bt-agregar{
-    font-size: 20px;
+    font-size: .9375rem;
+    padding: 5px;
+    margin-top: 1.25rem;
+    text-align: center;
+    background-color: #FFACA0;
+    font-family: 'Indie_Flower';
+    border-radius: .9375rem;
+    border: solid #4A5B44;
 }
 
-th,
-td {
-    border: solid salmon 3px;
+th {
+    border: solid salmon .125rem;
     padding: 10px;
     text-align: center;
+    background-color: #FFACA0;
+    font-family: 'Indie_Flower';
 }
 
-.tableFormat table {
-    margin: 10px auto
-
+.tableFormat table,
+td {
+    margin: 1.25rem auto;
+    border: solid salmon 2px;
+    text-align: center;
+    background-color: #BEFFD1;
+    font-family: 'Indie_Flower';    
+    
 }
+
+#bt-Cargar{
+    font-size: .9375rem;
+    padding: 5px;
+    margin-top: 1.25rem;
+    text-align: center;
+    background-color: #FFACA0;
+    font-family: 'Indie_Flower';
+    border-radius: .9375rem;
+    border: solid #4A5B44;
+    margin: 1% auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+
 
 /*Pie de pagina*/
 .pie-pagina{
@@ -112,7 +173,7 @@ td {
     font-size: 15px;   
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .pie-pagina .grupo-1{
         width: 90%;
         grid-template-columns: repeat(3, 1fr);
