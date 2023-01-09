@@ -36,17 +36,17 @@ body {
 nav{
     background-color: #BEFFD1;
     display: flex;
-    justify-content: center;
+    justify-content:first baseline
 }
 
 
 .portada{
     background-image: url(/Imágenes/1.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 31.25rem;
+    background-size:cover;  
     display: flex;
-    
+    /* flex-direction: column; */
+    min-height: 85vh;
+    flex-direction: row;
         
 }
 
@@ -130,13 +130,21 @@ nav{
         padding: 1.25rem 0rem;
     }
 
+    .pie-pagina{
+        width: 110%;
+        display: flex;
+        flex-direction: row;
+    }
+
     .nav{
         flex-direction: column;
+        padding: .0063rem;
     }
 
     .portada{
-        background-image: url(/Imágenes/4.jpg);
-        b
+        background-image: url(/Imágenes/Movil.png);
+        background-repeat: cover;
+        
     }
 
   }

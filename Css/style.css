@@ -28,7 +28,7 @@
 nav{
     background-color: #BEFFD1;
     display: flex;
-    justify-content: center;
+    justify-content:first baseline;
 }
 
 body {
